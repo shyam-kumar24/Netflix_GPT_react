@@ -5,6 +5,9 @@
 - Configured
 - Header
 - Login form
+- sign up form
+- Form validation
+- useRef hook
 
 # Features: 
 - login /Sign up
