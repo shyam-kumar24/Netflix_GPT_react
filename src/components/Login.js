@@ -44,7 +44,6 @@ function Login() {
           }).then(() => {
               const {uid,email, displayName, photoURL} = auth.currentUser
               dispatch(addUser({uid: uid, email: email, displayName: displayName}))
-              navigate("/browse");
           }).catch((error) => {
             setErrorMessage(error.message)
           });
@@ -64,7 +63,6 @@ function Login() {
         .then((userCredential) => {
           const user = userCredential.user;
           console.log(user);
-          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;

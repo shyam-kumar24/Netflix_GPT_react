@@ -9,3 +9,5 @@
 sksingh9040@gmail.com
 Sksingh@25
 Netflix@April25  
+
+# useNavigate() is only used inside the child component. not inside parent
