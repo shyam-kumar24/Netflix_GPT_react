@@ -14,5 +14,6 @@ const userSlice = createSlice({
     }
 })
 export const {addUser, removeUser} = userSlice.actions
+// actions me jo reducer functions hain isi ko ham appStore me userReducer ke roop me lete hain
 
 export default userSlice.reducer
