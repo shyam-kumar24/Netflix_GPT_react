@@ -13,3 +13,5 @@ Netflix@April25
 # useNavigate() is only used inside the child component. not inside parent
 
 # why fetch happens twice ? because of strict mode. react checks the renders twice for its proper functioning
+
+# to add auto play in embedded youtube video : do : &autoplay=1&mute=1 in the url
