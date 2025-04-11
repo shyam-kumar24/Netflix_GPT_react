@@ -11,3 +11,5 @@ Sksingh@25
 Netflix@April25  
 
 # useNavigate() is only used inside the child component. not inside parent
+
+# why fetch happens twice ? because of strict mode. react checks the renders twice for its proper functioning

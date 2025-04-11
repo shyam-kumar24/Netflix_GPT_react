@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { updateProfile } from "firebase/auth";
 import { addUser } from "../utils/userSlice";
 import { useDispatch } from "react-redux";
+import {PAGE_IMG} from '../utils/constants'
 
 
 function Login() {
@@ -77,7 +78,7 @@ function Login() {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/fa4630b1-ca1e-4788-94a9-eccef9f7af86/web/IN-en-20250407-TRIFECTA-perspective_43f6a235-9f3d-47ef-87e0-46185ab6a7e0_small.jpg"
+          src={PAGE_IMG}
           alt=""
         />
       </div>
