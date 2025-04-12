@@ -51,6 +51,7 @@ const Header = () => {
         alt=""
       />
       {user && <div className="flex gap-4 items-center">
+        <button className="py-2 px-4 m-2 text-white rounded-lg bg-purple-700">GPT search</button>
         <img className="w-10 h-10 rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKNdKRIgbcMkyGq1cQeq40IA-IQS-FDWnTQ&s" alt="" />
         <span>{user?.displayName}</span>
         <button onClick={() => handleSignOut()} className="font-bold text-lg">Sign Out</button>

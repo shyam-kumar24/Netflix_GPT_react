@@ -14,3 +14,5 @@ export const API_OPTIONS = {
 // --url 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_release_type=2|3&release_date.gte={min_date}&release_date.lte={max_date}' \
 // --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNjlhN2I3YzE1ZTc2ZTk4NWU0Yzk1MmRkZWQ3MjliZiIsIm5iZiI6MTc0NDI5Nzc3NS45MzUwMDAyLCJzdWIiOiI2N2Y3ZGYyZmVhODBkODUxNzU5OTZiOGEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.rjkj5GcNWRTmITFob8Dr0uv5_po5bYdKc7gC9LNRP-o' \
 // --header 'accept: application/json'
+
+export const IMG_CDN = "https://image.tmdb.org/t/p/original/"
