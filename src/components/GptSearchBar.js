@@ -9,18 +9,18 @@ const GptSearchBar = () => {
   const searchText = useRef()
 
   const handleGptSearchClick = async () => {
-    console.log(searchText.current.value);
+    // console.log(searchText.current.value);
 
-    const gptQuery = 'Act as a Movie recomendation system and suggest some movies for the query' + searchText.current.value + 'only give me 5 movies'
-    const gptResults = await openai.chat.completions.create({
-      model: 'gpt-4o',
-      messages: [
-        { role: 'developer', content: searchText.current.value },
-        { role: 'user', content: gptQuery },
-      ],
-    });
+    // const gptQuery = 'Act as a Movie recomendation system and suggest some movies for the query' + searchText.current.value + 'only give me 5 movies'
+    // const gptResults = await openai.chat.completions.create({
+    //   model: 'gpt-4o',
+    //   messages: [
+    //     { role: 'developer', content: searchText.current.value },
+    //     { role: 'user', content: gptQuery },
+    //   ],
+    // });
 
-    console.log(gptResults.choices[0].message.content);
+    // console.log(gptResults.choices[0].message.content);
 
   }
 

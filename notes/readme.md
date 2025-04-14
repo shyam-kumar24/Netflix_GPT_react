@@ -15,3 +15,6 @@ Netflix@April25
 # why fetch happens twice ? because of strict mode. react checks the renders twice for its proper functioning
 
 # to add auto play in embedded youtube video : do : &autoplay=1&mute=1 in the url
+
+# to store the sensitive keys we made .env file and fetched the desired key by doing process.env.keyname
+# this is memoisation . means if my store has the data then why make unnecessary api calls ?

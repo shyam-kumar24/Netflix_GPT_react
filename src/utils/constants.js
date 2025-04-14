@@ -23,4 +23,4 @@ export const SUPPORTED_LANGUAGES = [
     {identifier: 'spanish', name: 'Spanish'}
 ]
 
-export const OPEN_AI_KEY = "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"
+export const OPEN_AI_KEY = process.env.REACT_APP_OPENAI_KEY
