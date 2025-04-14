@@ -1,10 +1,10 @@
 const VideoTitle = ({ title, overview }) => {
   return (
-    <div className="w-screen aspect-video pt-[15%] px-6 absolute text-white bg-gradient-to-r from-black">
-      <h1 className="font-bold text-5xl">{title}</h1>
-      <p className="py-6 text-lg w-2/4">{overview}</p>
-      <div className="flex gap-5">
-        <button className="bg-white  text-black px-6 py-3 text-3xl rounded-md text-center flex gap-4  hover:bg-opacity-50">
+    <div className="w-screen aspect-video md:pt-[10%] md:mt-[7%] mt-[5%] pt-10 px-6 absolute  text-white bg-gradient-to-r from-black">
+      <h1 className="md:font-bold md:text-5xl text-4xl">{title}</h1>
+      <p className="hidden md:inline-block py-6 text-lg w-2/4">{overview}</p>
+      <div className="flex md:gap-5 gap-2">
+        <button className="bg-white md:h-auto h-10 px-2 text-black md:px-6 md:py-3 md:text-3xl rounded-md text-center md:flex gap-4  hover:bg-opacity-50">
           <svg
             width="40"
             height="40"
@@ -16,7 +16,7 @@ const VideoTitle = ({ title, overview }) => {
           </svg>
           Play
         </button>
-        <button className="bg-gray-500 text-white px-6 py-3 text-3xl rounded-md text-center">
+        <button className="bg-gray-500 text-white md:px-6 md:py-3 md:text-3xl md:h-auto h-10 px-2 rounded-md text-center">
           More info
         </button>
       </div>

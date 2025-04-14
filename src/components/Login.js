@@ -78,13 +78,14 @@ function Login() {
       <Header />
       <div className="absolute">
         <img
+          className="h-screen object-cover md:h-full"
           src={PAGE_IMG}
           alt=""
         />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="absolute w-4/12 bg-black mt-36 mx-auto left-0 right-0 text-white p-12 rounded-lg bg-opacity-80"
+        className="absolute w-[90%] md:w-4/12 bg-black mt-36 mx-auto left-0 right-0 text-white p-12 rounded-lg bg-opacity-80 "
       >
         <h1 className="font-bold text-3xl py-4">
           {isSignInForm ? "Sign In" : "Sign Up"}

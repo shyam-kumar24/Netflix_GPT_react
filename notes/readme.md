@@ -18,3 +18,5 @@ Netflix@April25
 
 # to store the sensitive keys we made .env file and fetched the desired key by doing process.env.keyname
 # this is memoisation . means if my store has the data then why make unnecessary api calls ?
+
+# responsiveness: md:for desktop . default for mobile. sm: for tabs or medium size device.
